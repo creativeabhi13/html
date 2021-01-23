@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CREATIVEABHI13 | PAYMENT </title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+    <form action="">
+        <h1>payment form</h1>
+        <h2>contact infromation</h2>
+        <p>Required Field followed by *</p>
+        <p> NAME: *<input type="text" name="name" required placeholder="enter your name "> </p>
+        <p>
+            
+            <fieldset>
+                <legend> Gender </legend> 
+             MALE <input type="radio" name="gender" id="male" >
+             FEMALE <input type="radio" name="gender" id="female" >
+            </fieldset>
+        </p>
+        <p>
+            Address:<textarea name="address" id="address" cols="100" rows="8" placeholder="enter your address"></textarea>
+        </p>
+        <p>
+            Emial:* <input type="email" name="email" id="email" placeholder="enter your email" required> </p>
+            <p>
+                Pincode: *<input type="number" name="pincode" id="pincode" placeholder="enter your pincode" required> 
+            </p>
+         <hr>
+         <h2>PAYMENT MODE</h2>  
+         <p>CARD TYPE *:
+             <select>
+            < select name="card type" id="type" required >
+                <option value="">---select a card type----</option>
+                <option value="Visa"> Visa</option>
+                <option value="Rupay"> Rupay</option>
+                <option value="Mastercard">Mastercard</option>
+
+            </select>
+        </p>
+            
+            <p>
+                Card Number:* <input type="number" name="card_number" id="card_number" placeholder="enter your card number " required>
+            </p>
+            <p>
+                Expiration Date:*<input type="date" name="exp_date" id="exp_date"required>
+            </p>
+            <p>
+                CVV:* <input type="password" name="cvv" id="cvv" placeholder="enter cvv "required>
+            </p>
+         <input type="submit" value="Pay now">
+    </form>
+</body>
+</html>

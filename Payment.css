@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(105, 80, 177);
+    margin: 0px;
+}
+p{
+    background-image:image-set(88.png);
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
